@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+
+:root {
+	--var1: #000;
+	--var2: #333;
+	--var3: #ccc;
+	--var4: #fff;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: var(--var4);
+}
+
+body {
+	background-color: var(--var1);
+}
